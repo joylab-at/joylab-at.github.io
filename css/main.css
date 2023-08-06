@@ -1,0 +1,91 @@
+@media (prefers-color-scheme: dark) {
+    h1 {
+        color: #FF0080;
+    }
+    body{
+    	background-color: #242424;
+	}
+    .stdbody {
+    color: white;
+    }
+    .line { 
+      background: #242424;
+      background: linear-gradient(to left, #242424, white, #242424);
+    }
+    .icon-gennohov{color:#242424!important}
+    .icon:hover{fill:#ffffff!important; color:#ffffff!important;}
+}
+
+@media (prefers-color-scheme: light) {
+    h1 {
+        color: #FF0080;
+    }
+    .stdbody {
+        color: #272727;
+    }
+    /*.line { 
+    background: #272727;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #272727));
+    }
+    */
+    .line { 
+    background: #272727;
+    background: linear-gradient(to left, white, #272727, white);
+    }
+    .icon{color:#272727!important}
+    .icon:hover {fill:#ffffff!important; color:#ffffff!important;}
+}
+
+@font-face {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('league-spartan.woff2') format('woff2 supports variations'),
+       url("league-spartan.woff2") format("woff2-variations");
+  font-weight: 100 1000;
+}
+
+.color-highlight {
+    color:#0093DD;
+}
+h1 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 86px;
+}
+.stdbody {
+    text-align: center;
+	line-height: 110%;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 48px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.textlink:link    {color:#0093DD; background-color:transparent; text-decoration:none}
+.textlink:visited {color:#0093DD; background-color:transparent;}
+.textlink:hover   {color:#0093DD; background-color:transparent;}
+.textlink:active  {color:#0093DD; background-color:transparent;}
+.line { 
+    margin: 10px 0;
+    height: 1px;
+    border: 0;
+}
+.icon{color:white; font-family: 'League Spartan', sans-serif;}
+.icon-gennohov {background-color:#0093DD;}
+.icon-gen:hover {background-color:#0093DD;}
+.icon-val:hover {background-color:#E7443C;}
+.icon-fb:hover {background-color:#3b5998;}
+.icon-spotify:hover {background-color:#1DB954;}
+.icon-tw:hover {background-color:#1DA1F2;}
+.icon-gp:hover {background-color:#dc4e41;}
+.icon-gh:hover {background-color:#4183c4;}
+.icon-bb:hover {background-color:#205081;}
+.icon-in:hover {background-color:#0077b5;}
+.icon-xi:hover {background-color:#026466;}
+.icon-id:hover {background-color:#a6ce39;}
+.icon-gt:hover {background-color:#00ccbb;}
+.icon-gpg:hover {background-color:#FF7100;}
+.icon-elements:hover {background-color:#0dbd8b;}
+.lowercase { text-transform:lowercase !important;}
